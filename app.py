@@ -6,7 +6,7 @@ import uuid
 
 app = Flask(__name__)
 
-API_ENDPOINT = 'https://webbedwordycases.jamesgrant18.repl.co/api/v1/summarize'
+API_ENDPOINT = 'https://URL/api/v1/summarize'
 RESULTS_DIR = 'results'  # The directory to store the results
 
 # Create the RESULTS_DIR if it doesn't exist
